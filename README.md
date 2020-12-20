@@ -23,6 +23,16 @@ git clone [your repository URL]
 3. Once each member has cloned the repository, open the `lorem_ipsum.md` file located in the `storyTime` folder in your text editor of choice.
 4. Get each team member to make a change to the file but don't indicate where the change has been made. Once you have made a change save the file. In your terminal commit the change by typing 
 ```bash
-git commit -a -m [your message here]
+git commit -a -m "your message here"
 ```
+
 5. hello world
+
+6. testing 123
+
+
+```bash
+git pull
+```
+
+When running the pull command git will add conflict markers to show you where the conflict is. These are identified using conflict markers `<<<<<<<`, `=======`, `>>>>>>>`. Fix the conflicts, remove the conflict markers, make another commit, and merge your changes.
