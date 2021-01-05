@@ -61,7 +61,7 @@ Now that we have our fork on GitHub we need a local copy. We get this copy with 
 ![SSH Link](assets/gitSSHCode.jpg)
 ![Clone Repo](assets/gitCloneBash.jpg)
 ## 8. Open in your preferred text editor
-You will now be able to open the files in your favourite text editor. Below you can see how to open it in VSCode.
+You will now be able to open the files in your favorite text editor. Below you can see how to open it in VSCode.
 
 ![Open Folder](assets/vscodeOpen.jpg)
 ![File System](assets/fileStructure.jpg)
