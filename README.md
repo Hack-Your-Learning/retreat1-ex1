@@ -60,3 +60,22 @@ git merge
 8. Once each team member has merged their changes move on to Exercise 2
 
 ## Exercise 2: Branch
+
+1. Within you repository create a new branch by typing the command below
+
+```bash
+git branch [your branch here]
+```
+
+2. To start editing using the local branch you created checkout the branch by useing the command below
+
+```bash
+git checkout [your branch here]
+```
+
+3. Make the changes and commit them using the `git commit` command as outlined in Exercies 1 - Step 4
+   
+4. Push your local branch to the remote git server
+```bash
+git push -u origin [your branch here]
+```
