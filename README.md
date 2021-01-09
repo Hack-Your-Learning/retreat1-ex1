@@ -57,16 +57,27 @@ git branch [your branch here]
 git checkout [your branch here]
 ```
 
-3. Make the changes and commit them using the `git commit` command as outlined in Exercies 1 - Step 4
+3. Make the changes and commit them using the `git commit` command as outlined in Exercise 1 - Step 4
    
 4. Push your local branch to the remote git server
 ```bash
 git push -u origin [your branch here]
 ```
 
-5. Navigate to the GitHub repository in your browser
+5. Navigate to the GitHub repository in your browser. You should see a message indicating your branch has a recent push. Click the "Compare & pull request" button.
 
-6. 
+![Recent Push Message](/assets/recentPush.jpg)
+
+- If the message doesn't appear navigate to the "Pull requests tab" and then create a pull request
+
+6. This will open a pull request. Make sure to add a title and description outlining the changes you made.
+
+![Pull Request](/assets/pullRequest.jpg)
+
+7. Once you have create the pull request you can merge the branch into the main repository branch. This should be done by the creator of the repository. We suggest the creator share their screen and walk through the steps as a group. In the files changed tab on the right the changes that will be merged can be viewed. Review the changes, add comments under the Conversation tab, and then merge the pull request using the "Merge pull request button"
+
+![Pull Request Merge](/assets/pullRequestMerge.jpg)
+
 
 ## Exercise 3: Conflicts and Merging
 
