@@ -66,17 +66,17 @@ git push -u origin [your branch here]
 
 5. Navigate to the GitHub repository in your browser. You should see a message indicating your branch has a recent push. Click the "Compare & pull request" button.
 
-![Recent Push Message](/assets/recentPush.jpg)
+![Recent Push Message](/assets/recentPush.JPG)
 
 - If the message doesn't appear navigate to the "Pull requests tab" and then create a pull request
 
 6. This will open a pull request. Make sure to add a title and description outlining the changes you made.
 
-![Pull Request](/assets/pullRequest.jpg)
+![Pull Request](/assets/pullRequest.JPG)
 
 7. Once you have create the pull request you can merge the branch into the main repository branch. This should be done by the creator of the repository. We suggest the creator share their screen and walk through the steps as a group. In the files changed tab on the right the changes that will be merged can be viewed. Review the changes, add comments under the Conversation tab, and then merge the pull request using the "Merge pull request button"
 
-![Pull Request Merge](/assets/pullRequestMerge.jpg)
+![Pull Request Merge](/assets/pullRequestMerge.JPG)
 
 
 ## Exercise 3: Conflicts and Merging
