@@ -63,6 +63,6 @@ If you're working with a team you will want to add collaborators. From your repo
 - Manage Access
 - Invite Collaborator
 
-You can add your collaborators by email or GitHub username. To contribute they should clone the repository as described above. Note that there is no need for your teammates to fork either the HYL repository or your repository! They should *clone* the repository that you have alread *forked*.
+You can add your collaborators by email or GitHub username. To contribute they should clone the repository as described above. Note that there is no need for your teammates to fork either the HYL repository or your repository! They should *clone* the repository that you have just *forked*.
 
 ![Add Collaborator](assets/addcollaborators.png)
