@@ -58,11 +58,11 @@ You will now be able to open the files in your favourite text editor. Below you 
 ![Open Folder](assets/openfolder.png)
 ![File System](assets/vscodefilesystem.PNG)
 ## 9. Add collaborators
-If you're working with a team you will want to add collaborators. From your repository's page on GitHub. Click
+If you're working with a team you will want to add collaborators. From your repository's page on GitHub, click
 - Settings
 - Manage Access
 - Invite Collaborator
 
-You can add your collaborators by email or GitHub username. To contribute they should clone the repository as described above. Note that there is no need for your teammates to fork either the HYL repository! They should use the repository that you have already created.
+You can add your collaborators by email or GitHub username. To contribute they should clone the repository as described above. Note that there is no need for your teammates to fork either the HYL repository or your repository! They should *clone* the repository that you have just *forked*.
 
 ![Add Collaborator](assets/addcollaborators.png)
