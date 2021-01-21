@@ -29,11 +29,55 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
     ```bash
     git init
     ```
-4. 
+    The `git init` command will start a repository and allow you to track the changes of the files within that folder.
+
+4. Once you have initialized the repository you can add a file to be tracked. Once you have created a file open it in your text editor.
+5. Add some text to the ile. In our demonstration we will add `hello world` and then save the file.
+6. In the terminal window check the status of the git repository using the following command
+   
+    ```bash
+    git status
+    ```
+
+    When typing the command you should see a message similar to the below:
+    ```bash
+    $ git status
+    On branch master
+
+    No commits yet
+
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+            myfile.txt
+
+    nothing added to commit but untracked files present (use "git add" to track)
+    ```
+
+    This message says that there have been changes to files within the repository that are not currently tracked by git.
+
+7. To track changes on the file you created use the following command:
+
+    ```bash
+    git add myfile.txt
+    ```
+
+    This will tell git to track the changes for that file.
+
+8. To save the changes to the repository use the following command
+
+    ```bash
+    git commit -m "This is my first commit"
+    ```
+
+    This will commit the changes you made to the repository with the commit message of "This is my first commit". Commit messages are useful if you wanted to go back and see all of the commits made to a repository.
+
 
 ## Exercise 2: Git Basics
 
 1. Make a copy of the repository on a member of your team's Github account. Do this by forking the repository. Navigate to the Hack Your Learning repository then click the fork button <https://github.com/Hack-Your-Learning/retreat1-ex1>
+
+    In order to allow the other members of your team to contribute to your repository you will need to add them as colloaborators. A guide for doing so is found [here](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)
+
 2. Each member of your team should clone this repository on their own computer. Do this by navigating to the folder of your choice within the command line and then using the command
 
     ```bash
@@ -41,13 +85,15 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
     ```
 
 3. Once each member has cloned the repository, open the `lorem_ipsum.md` file located in the `storyTime` folder in your text editor of choice.
+
+
 4. Get each team member to make a change to the file but don't indicate where the change has been made. Once you have made a change save the file. In your terminal stage the change using the command below
 
     ```bash
     git add 
     ```
 
-The core command in this case is git commit which commits your changes to the repository. The `-a` flag indicates that you want to "stage" all of your changes to the repository. The `-m` flag indicates that you are adding a message to your commit which is indicated in the `""` immediately after the flag.
+    The core command in this case is git commit which commits your changes to the repository. The `-a` flag indicates that you want to "stage" all of your changes to the repository. The `-m` flag indicates that you are adding a message to your commit which is indicated in the `""` immediately after the flag.
 
 5. Once you have committed the change push the change to the Github server
 
@@ -55,7 +101,7 @@ The core command in this case is git commit which commits your changes to the re
     git push
     ```
 
-This will take all of the changes that you committed and push them to the server.
+    This will take all of the changes that you committed and push them to the server.
 
 ## Exercise 3: Branch
 
@@ -80,17 +126,17 @@ This will take all of the changes that you committed and push them to the server
 
 5. Navigate to the GitHub repository in your browser. You should see a message indicating your branch has a recent push. Click the "Compare & pull request" button.
 
-![Recent Push Message](/assets/recentPush.JPG)
+    ![Recent Push Message](/assets/recentPush.JPG)
 
 - If the message doesn't appear navigate to the "Pull requests tab" and then create a pull request
 
 6. This will open a pull request. Make sure to add a title and description outlining the changes you made.
 
-![Pull Request](/assets/pullRequest.JPG)
+    ![Pull Request](/assets/pullRequest.JPG)
 
 7. Once you have create the pull request you can merge the branch into the main repository branch. This should be done by the creator of the repository. We suggest the creator share their screen and walk through the steps as a group. In the files changed tab on the right the changes that will be merged can be viewed. Review the changes, add comments under the Conversation tab, and then merge the pull request using the "Merge pull request button"
 
-![Pull Request Merge](/assets/pullRequestMerge.JPG)
+    ![Pull Request Merge](/assets/pullRequestMerge.JPG)
 
 
 ## Exercise 4: Conflicts and Merging
