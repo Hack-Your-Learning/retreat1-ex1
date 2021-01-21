@@ -86,14 +86,21 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
 
 3. Once each member has cloned the repository, open the `lorem_ipsum.md` file located in the `storyTime` folder in your text editor of choice.
 
-
 4. Get each team member to make a change to the file but don't indicate where the change has been made. Once you have made a change save the file. In your terminal stage the change using the command below
 
     ```bash
-    git add 
+    git add storyTime/lorem_ipsum.md
     ```
 
-    The core command in this case is git commit which commits your changes to the repository. The `-a` flag indicates that you want to "stage" all of your changes to the repository. The `-m` flag indicates that you are adding a message to your commit which is indicated in the `""` immediately after the flag.
+    The core command used here is `git add` which tells git that you want to track the changes for that file. This can become teadous for multiple files. When you have multiple changes and you want to track them all use the command `git add .`.
+
+5. Commit your changes and add a descriptive message
+
+    ```bash
+    git commit -m "your message here"
+    ```
+
+    The core command in this case is git commit which commits your changes to the repository. The `-m` flag indicates that you are adding a message to your commit which is indicated in the `""` immediately after the flag.
 
 5. Once you have committed the change push the change to the Github server
 
@@ -101,7 +108,7 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
     git push
     ```
 
-    This will take all of the changes that you committed and push them to the server.
+    Although you have commited your changes they only exist on your machine and arent present on the server. The `git push` command tells your computer to send the changes to the server.
 
 ## Exercise 3: Branch
 

@@ -1,4 +1,9 @@
-# Mac Install Guide
+<div>
+<img src="http://drive.google.com/uc?export=view&id=1MADw5CwZYysojTdKwgfJEJpAHdO1Jxoq">
+<h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Space Mono', sans-serif;">Git Install Guide - Mac
+</h1>
+</div>
+
 ## 1. Open the Terminal application on your computer
 
 **Note:** You will require sufficient permissions on your device to install git and it's dependencies. This includes administrator permissions and the password for the user
@@ -53,13 +58,15 @@ Your ssh keys are now set up.
 ## 6. Fork the HYL Repository - only one team member needs to do this!
 To work on the HYL project one member of your team will need to fork the repository. To do so, navigate to https://github.com/Hack-Your-Learning/retreat1-ex1. Click "Fork" in the top right corner. This will create a copy of this repository for your team to work on. GitHub should redirect you to your copy when you create it. If it did not you can find your copy by clicking on your profile picture and then "your repositories".
 
-![Fork](assets/forkBar.jpg)
-![Your Repositories](assets/gitDashboard.jpg)
+<img src="assets/forkBar.jpg" width="200">
+<img src="assets/gitDashboard.jpg" width="200">
+
 ## 7. Clone the repository
 Now that we have our fork on GitHub we need a local copy. We get this copy with the "clone" command. First copy the ssh link by clicking the green "Code" button, choose ssh and then copy the link. Go back to your git bash and `cd` to your project directory. We can clone the project with `git clone <your link>`. If it asks you about adding to known hosts say yes.
 
-![SSH Link](assets/gitSSHCode.jpg)
-![Clone Repo](assets/gitCloneBash.jpg)
+![SSH Link](assets/gitCloneBash.jpg)
+<img src="assets/gitSSHCode.jpg" width="200">
+
 ## 8. Open in your preferred text editor
 You will now be able to open the files in your favorite text editor. Below you can see how to open it in VSCode.
 
