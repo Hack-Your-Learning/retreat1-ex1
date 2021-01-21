@@ -1,5 +1,5 @@
 <div>
-<img src="https://hackyourlearning.ca/static/media/Light_Logo_Text.2ccba3aa.png">
+<img src="http://drive.google.com/uc?export=view&id=1MADw5CwZYysojTdKwgfJEJpAHdO1Jxoq">
 <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Space Mono', sans-serif;">Hack Your Learning: Session 1 - Part 1
 </h1>
 </div>
