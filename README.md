@@ -145,31 +145,4 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
 
     ![Pull Request Merge](/assets/pullRequestMerge.JPG)
 
-
-## Exercise 4: Conflicts and Merging
-
-One of the biggest challenges with collaboratively coding that can be overcome is conflicts between different versions of code. However, it can become difficult to review these conflicts and fix them within a command line interface and basic text editor. We suggest you use an Integrated Development EEnvironment (IDE). Our preferred IDE is [VSCode](https://code.visualstudio.com/).
-
-1. To start this exercise make sure ou are editing the main branch. This can be done using the `git checkout` command.
-   
-    ``` bash
-    git checkout main
-    ```
-
-3. Get each member of your group to make a change to the repository.
-
-2. The changes will be successful for the first member of your group. The next members of your group will encounter an error pushing to Github because there will be a merge conflict. To identify the conflict run the pull command below.
-
-    ```bash
-    git pull
-    ```
-
-When running the pull command git will add conflict markers to show you where the conflict is. These are identified using conflict markers `<<<<<<<`, `=======`, `>>>>>>>`. Fix the conflicts, remove the conflict markers and make another commit.
-
-2. To merge the changes from your latest commit run the merge command below
-
-    ```bash
-    git merge
-    ```
-
-3. Once each team member has merged their changes move on to Exercise 2
+One thing you'll notice is Github is allowing you to automatically merge your changes into the main branch. This is because the changes that you made were relatively simple and Github is able to merge without affecting the code. In the next session we will explore how to merge code that is more complex.
