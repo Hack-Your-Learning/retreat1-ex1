@@ -14,7 +14,7 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
 
 <https://www.ultraedit.com/company/blog/community/what-is-markdown-why-use-it.html>
 
-### Perquisites
+### Prerequisites
 
 - A text editor
 - A Github account
