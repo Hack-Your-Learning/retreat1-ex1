@@ -10,6 +10,8 @@ Pellentesque venenatis sagittis risus, ut feugiat erat molestie vitae. Proin ut 
 
 pull request test12312412412412
 
+<<<<<<< HEAD
 credo in unum deum. Patrum ominpotentum. Factorem Coelli et Terra. Visibilium Omnium. Et Invisibillium. 
 
-New stuff.
+Mohamed Yassin exercise 2
+>>>>>>> refs/remotes/origin/main
