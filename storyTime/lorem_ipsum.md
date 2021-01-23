@@ -10,4 +10,6 @@ Pellentesque venenatis sagittis risus, ut feugiat erat molestie vitae. Proin ut 
 
 pull request test12312412412412
 
-credo in unum deum. Patrum ominpotentum. Factorem Coelli et Terra. Visibilium Omnium. Et Invisibillium. 
+credo in unum deum. Patrum ominpotenum. Factorem Coelli et Terra. Visibilium Omnium. Et Invisibillium. 
+
+Mohamed Yassin exercise 2
