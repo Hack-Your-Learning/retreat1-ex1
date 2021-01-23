@@ -13,5 +13,10 @@ pull request test12312412412412
 <<<<<<< HEAD
 credo in unum deum. Patrum ominpotentum. Factorem Coelli et Terra. Visibilium Omnium. Et Invisibillium. 
 
+<<<<<<< HEAD
 Mohamed Yassin exercise 2
 >>>>>>> refs/remotes/origin/main
+=======
+New stuff. More new stuff.
+
+>>>>>>> ron_branch
