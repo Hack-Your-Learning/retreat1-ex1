@@ -4,7 +4,7 @@
 </h1>
 </div>
 
-## Greg Was Here
+## Intro
 
 The purpose of this exercise is to familiarize you with `git`. With your team you will follow the steps outlined on this page.
 
