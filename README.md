@@ -33,7 +33,16 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
 
 ## Exercise 2: Git Basics
 
-1. Make a copy of the repository on a member of your team's Github account. Do this by forking the repository. Navigate to the Hack Your Learning repository then click the fork button <https://github.com/Hack-Your-Learning/retreat1-ex1>
+1. Make a copy of the repository on a member of your team's Github account. Do this by clicking the "Use This Template" button.
+
+    Navigate to the Hack Your Learning repository <https://github.com/Hack-Your-Learning/retreat1-ex1> then click the "Use This Template" button
+
+    ![Use This Template Button](/assets/templateButton.png)
+
+    Make sure that the settings for your repository match those that are shown in the image below.
+
+    ![Template Repository Setup](/assets/templateRepo.png)
+
 2. Each member of your team should clone this repository on their own computer. Do this by navigating to the folder of your choice within the command line and then using the command
 
     ```bash
@@ -89,18 +98,21 @@ Markdown is a syntax that allows you more functionality to format text. Popular 
 
 5. Navigate to the GitHub repository in your browser. You should see a message indicating your branch has a recent push. Click the "Compare & pull request" button.
 
-![Recent Push Message](/assets/recentPush.JPG)
+    ![Recent Push Message](/assets/recentPush.JPG)
 
-- If the message doesn't appear navigate to the "Pull requests tab" and then create a pull request
+    - If the message doesn't appear navigate to the "Pull requests tab" and then create a pull request
 
 6. This will open a pull request. Make sure to add a title and description outlining the changes you made.
 
-![Pull Request](/assets/pullRequest.JPG)
+    ![Pull Request](/assets/pullRequest.JPG)
+
+    **Important:** Make sure your base branch is main not Hack-Your-Learning/retreat1-ex1/main!
+
+    ![Correct Pull Request](/assets/pullRequest.png)
 
 7. Once you have create the pull request you can merge the branch into the main repository branch. This should be done by the creator of the repository. We suggest the creator share their screen and walk through the steps as a group. In the files changed tab on the right the changes that will be merged can be viewed. Review the changes, add comments under the Conversation tab, and then merge the pull request using the "Merge pull request button"
 
-![Pull Request Merge](/assets/pullRequestMerge.JPG)
-
+    ![Pull Request Merge](/assets/pullRequestMerge.JPG)
 
 ## Exercise 4: Conflicts and Merging
 
